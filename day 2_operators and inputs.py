@@ -1,8 +1,8 @@
 print("Pick a number")
-num1 = input()
+num1 = int(input())
 print("pick another number")
-num2 = input()
-sum = int(num1)+ int(num2)
+num2 = int(input())
+sum = (num1)+ (num2)
 print(sum)
 print(type(num2))
 
